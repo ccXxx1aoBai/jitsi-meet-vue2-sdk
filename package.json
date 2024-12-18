@@ -1,15 +1,19 @@
 {
-  "name": "jitsi-vue2-sdk",
+  "name": "jitsi-meet-vue2-sdk",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "jitsi-meet-vue2-sdk/jitsi-vue2-sdk.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib src/index.js --name jitsi-meet-vue2-sdk --dest jitsi-meet-vue2-sdk"
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "traverse": "^0.6.6",
+    "vue": "^2.6.12",
+    "vue-i18n": "^8.28.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -17,8 +21,10 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "cross-env": "^7.0.3",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "rimraf": "^3.0.2",
     "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {
@@ -33,7 +39,9 @@
     "parserOptions": {
       "parser": "@babel/eslint-parser"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": [
     "> 1%",

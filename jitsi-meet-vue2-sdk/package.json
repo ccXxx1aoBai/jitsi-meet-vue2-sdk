@@ -1,0 +1,19 @@
+{
+  "name": "jitsi-meet-vue2-sdk",
+  "version": "0.1.1",
+  "description": "Vue v2 SDK for the Jitsi Meet IFrame",
+  "private": false,
+  "main": "jitsi-meet-vue2-sdk.common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lib",
+    "jitsi",
+    "meet",
+    "jitsi-meet",
+    "vue2"
+  ],
+  "author": "x1ao_bai",
+  "license": "ISC"
+}
