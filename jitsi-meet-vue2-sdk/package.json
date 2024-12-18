@@ -1,6 +1,6 @@
 {
   "name": "jitsi-meet-vue2-sdk",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "description": "Vue v2 SDK for the Jitsi Meet IFrame",
   "private": false,
   "main": "jitsi-meet-vue2-sdk.common.js",
