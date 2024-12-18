@@ -1,6 +1,10 @@
 # Jitsi Meet Vue2 SDK
 
-The Jitsi Meet Vue2 SDK was used to replace a dependency of @jitsi/vue-sdk to meet the requirements for Vue.js 2 version.
+[English](https://github.com/ccXxx1aoBai/jitsi-meet-vue2-sdk/blob/main/README.md)|[中文](https://github.com/ccXxx1aoBai/jitsi-meet-vue2-sdk/blob/main/README_zh.md)
+
+<p>The Jitsi Meet Vue2 SDK was used to replace a dependency of @jitsi/vue-sdk to meet the requirements for Vue.js 2 version.</p>
+
+
 
 ## [Install](#install)
 `
