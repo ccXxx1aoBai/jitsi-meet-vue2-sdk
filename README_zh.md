@@ -4,9 +4,9 @@
 
 <p>弥补Vue2版本空缺，@jitsi/vue-sdk只支持Vue3。</p>
 
-`src/lang中main-zhCN.json基本包含了系统中用到的所有文字对应i18，可自行下载替换jitsi-meet私有化服务对应文件`
-`需求移除会议中jitsi logo，则自行下载src/css中all.css文件，替换私有化服务对应文件`
-[itsi-meet私有化](https://github.com/ccXxx1aoBai/docker-jitsi-meet-deployment)
+###### `src/lang中main-zhCN.json基本包含了系统中用到的所有文字对应i18，可自行下载替换jitsi-meet私有化服务对应文件`
+###### `需求移除会议中jitsi logo，则自行下载src/css中all.css文件，替换私有化服务对应文件`
+###### [jitsi-meet私有化部署](https://github.com/ccXxx1aoBai/docker-jitsi-meet-deployment)
 
 ## [安装](#install)
 `
