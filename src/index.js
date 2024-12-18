@@ -1,6 +1,6 @@
-import JitsiMeeting from "/packages/jitsi-meeting";
+import JitsiMeeting from "../packages/jitsi-meeting/index.vue";
 
-const install = function(Vue, opts = {}) {
+const install = function(Vue) {
   Vue.component(JitsiMeeting.name, JitsiMeeting);
 };
 

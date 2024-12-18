@@ -34,7 +34,7 @@ const loadExternalApi = async (domain) =>
       document.createElement("script");
 
     externalApiScript.async = true;
-    externalApiScript.src = `/external_api.js`;
+    externalApiScript.src = `https://${domain}/external_api.js`;
 
     externalApiScript.onload = () => resolve(window.JitsiMeetExternalAPI);
     externalApiScript.onerror = () =>

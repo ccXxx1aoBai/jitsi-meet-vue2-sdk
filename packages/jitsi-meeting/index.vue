@@ -10,9 +10,9 @@
 	</div>
 </template>
 
-<script lang="ts">
-import { DEFAULT_DOMAIN } from '@/constants/index';
-import { generateComponentId, fetchExternalApi } from '@/utils/index';
+<script>
+import { DEFAULT_DOMAIN } from 'jitsi-meet-vue2-sdk/src/constants/index';
+import { generateComponentId, fetchExternalApi } from 'jitsi-meet-vue2-sdk/src/utils/index';
 // import { JitsiMeetExternalApi, IJitsiMeetExternalApi } from '@/types';
 
 export default {
