@@ -1,6 +1,6 @@
 {
   "name": "jitsi-meet-vue2-sdk",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Vue v2 SDK for the Jitsi Meet IFrame",
   "private": false,
   "main": "src/index.js",
@@ -15,5 +15,10 @@
     "vue2"
   ],
   "author": "x1ao_bai",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "readme": "README.md",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/ccXxx1aoBai/jitsi-meet-vue2-sdk"
+  }
 }
